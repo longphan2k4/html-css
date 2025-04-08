@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+html,
+body {
+  /* height: 100%; */
+  line-height: 1.5;
+  background-image: url("../assets/images/pexels-szymon-shields-1503561-29352449.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.picture {
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+
+table,
+td,
+th {
+  /* border: 1px solid red; */
+  border-collapse: collapse;
+  background-color: #fff;
+}
+td,
+tr {
+  border-bottom: 1px solid red;
+}
+
+td,
+th {
+  text-align: left;
+  padding-left: 16px;
+}
+
+tr:nth-child(even) td {
+  background-color: red;
+}
+
+tr:nth-child(odd) td {
+  background-color: aqua;
+}
+
+tr:hover {
+  color: grey;
+}
+#ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ul > ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  margin: 4px auto;
+  background-color: rgb(47, 47, 177);
+  justify-content: center;
+}
+
+#ul li {
+  float: left;
+}
+#ul > ul > li > a {
+  display: block;
+  color: white;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+#ul > ul > li > a:hover {
+  color: red;
+}
